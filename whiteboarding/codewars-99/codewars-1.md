@@ -23,16 +23,20 @@ describe("last", function(){
 ## SOLUTION:
 an alternative to an if...else statement
 
-condition is followed by a question mark (?)
-if an expression is truthy the operation is executed
-if the condition is falsy the expression followed by a colon (:) is executed 
+- condition is followed by a question mark (?) 
+- if an expression is truthy the operation after `?` is executed
+- if the condition is falsy the expression followed by a colon `:` is executed 
 
 ## 1.
-**const last = xs => xs.length ? xs[xs.length - 1] : null**
+**`const last = xs => xs.length ? xs[xs.length - 1] : null`**
 - if `xs.length ? ` means if `xs` list exists and includes any data 
 - `xs[xs.length - 1]` means the name of the list and the index of the last element in the list (indexes start from [0])
 
 ## 2.
-**const last = xs => xs.length == 0 ? null : xs[xs.length - 1]**
+**`const last = xs => xs.length == 0 ? null : xs[xs.length - 1]`**
 
+## 3
+**`const last = arr => arr.length <= 0 ? null : arr.pop();`**
+- pop()
+returns the value of the last element of array , shortening the array by one element
 
