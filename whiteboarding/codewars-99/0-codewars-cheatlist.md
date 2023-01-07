@@ -1,6 +1,6 @@
 ### IF...ELSE alternative
-
-- condition is followed by a question mark (?) 
+- `?`
+- condition is followed by a question mark `?` 
 - if an expression is truthy the operation after `?` is executed
 - if the condition is falsy the expression followed by a colon `:` is executed 
 
