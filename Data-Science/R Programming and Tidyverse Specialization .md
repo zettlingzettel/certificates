@@ -1,10 +1,14 @@
 
+
+<style>
+#foo {color: red}
+</style>
+
+<p id="foo">foo</p>
+
+<p style="color: blue">bar</p>
 # Certificate 1
 ## Week 1
-<style>H1{color:Blue;}</style>
-<style>H2{color:DarkOrange;}</style>
-<style>p{color:Black;}</style>
-This is a test to see how the colors work.
 
 2023 June 13th (challenge-day-1)
 ### Hands-On Programming with R - Chapter 2
