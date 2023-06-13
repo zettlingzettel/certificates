@@ -1,12 +1,15 @@
-
-
 <style>
-#foo {color: red}
+.green {
+    color: green;
+    font-weight:700;
+    font-size: 30px;
+}
 </style>
 
-<p id="foo">foo</p>
+<div class="green">
+    Markdown css styles
+</div>
 
-<p style="color: blue">bar</p>
 # Certificate 1
 ## Week 1
 
