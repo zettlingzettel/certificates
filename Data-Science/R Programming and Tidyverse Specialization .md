@@ -1,15 +1,16 @@
-<style>
-.green {
-    color: green;
-    font-weight:700;
-    font-size: 30px;
-}
-</style>
+<svg fill="none">
+  <foreignObject width="100%" height="100%">
+    <div>
+      <style>
+        p {
+          color: yellow;
+        }
+      </style>
+    </div>
+  </foreignObject>
+</svg>
 
-<div class="green">
-    Markdown css styles
-</div>
-
+<p><Example/p>
 # Certificate 1
 ## Week 1
 
