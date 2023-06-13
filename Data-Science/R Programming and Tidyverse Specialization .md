@@ -1,16 +1,17 @@
-<svg fill="none">
+<svg fill="none" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div>
+    <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         p {
           color: yellow;
         }
       </style>
+      <p>Example</p>
     </div>
   </foreignObject>
 </svg>
 
-<p><Example/p>
+<p><Example</p>
 # Certificate 1
 ## Week 1
 
