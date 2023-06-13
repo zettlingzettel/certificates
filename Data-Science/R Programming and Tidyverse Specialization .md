@@ -1,7 +1,11 @@
+<style>
+  r { color: Red }
+</style>
+
 # Certificate 1
 ## Week 1
 
-<p style="color:blue">
+<r>
 2023 June 13th (challenge-day-1)
 ### Hands-On Programming with R - Chapter 2
 #### 2.1-2.2
@@ -102,4 +106,4 @@ Scripts are multi-line code (console has single-line command line).
 CREATING A FUNCTION FROM THE SCRIPT
 RStudio comes with a tool that can help you build functions. To use it, highlight the lines of code in your R script that you want to turn into a function. Then click Code > Extract Function in the menu bar. RStudio will ask you for a function name to use and then wrap your code in a function call. It will scan the code for undefined variables and use these as arguments.
 
-</p>
+</r>
