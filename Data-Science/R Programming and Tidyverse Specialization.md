@@ -101,3 +101,17 @@ Scripts are multi-line code (console has single-line command line).
 CREATING A FUNCTION FROM THE SCRIPT
 RStudio comes with a tool that can help you build functions. To use it, highlight the lines of code in your R script that you want to turn into a function. Then click Code > Extract Function in the menu bar. RStudio will ask you for a function name to use and then wrap your code in a function call. It will scan the code for undefined variables and use these as arguments.
 
+
+2023 June 14th (challenge-day-2)
+### R for Data Science - Chapter 4
+#### 4.1
+Alt + - (the minus sign).
+Object names must start with a letter, and can only contain letters, numbers, _ and .
+
+
+```R
+seq(1, 10)
+```
+surrounding the assignment with parentheses, which causes assignment and “print to screen” to happen.
+
+Alt + Shift + K
