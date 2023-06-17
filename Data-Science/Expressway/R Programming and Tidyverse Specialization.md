@@ -115,3 +115,98 @@ seq(1, 10)
 surrounding the assignment with parentheses, which causes assignment and “print to screen” to happen.
 
 Alt + Shift + K
+
+2023 June 15th-16th (challenge-day-3-4)
+### Fundamentals of R Summary
+Objects can be created with the assign operator, <-, and named using letters, digits, dots, and underscores. Note that a name must start with a letter and is case sensitive. 
+
+Objects have two intrinsic properties: mode and length. The mode represents the element type: numeric, character, complex, and logical. The length is the number of elements in the object.
+
+Vector, Matrix, Array, List, Dataframe
+
+```R
+x <- 10             # numeric vector 
+mode(x)
+
+y <- "my vector"    ### character vector
+mode(y)
+
+z <- 10i            ### complex vector
+mode(z)
+
+j <- TRUE           ### logical vector
+mode(j)
+```
+
+```R
+dim(data) 
+### The dim function of the R programming language returns the dimension (e.g. the number of columns and rows) of a matrix, array or data frame.
+```
+
+```R
+The mode is the value that has highest number of occurrences in a set of data. Unike mean and median, mode can have both numeric and character data. R does not have a standard in-built function to calculate mode.
+
+
+If the mode() function in R gives a result of numeric, it means that the vector or matrix has no mode. This can happen if the vector or matrix has all unique values, or if the values in the vector or matrix are evenly distributed.
+```
+
+```R
+%%
+Modulus
+% / %
+Integer Division
+```
+
+```R
+Functions:
+Description
+?() or help()
+Access the documentation and help file for a particular function
+install.packages()
+Download and install an R package
+library()
+Loads an R package into the working environment
+setwd()
+Set the working directory
+getwd()
+Get the working directory
+c()
+Create a vector
+as.numeric()
+Converts an object to a numeric vector
+as.logical()
+Converts an object to a logical vector
+as.character()
+Converts and object to a character vector
+sum()
+Returns the sum of all input values
+length()
+Returns the lenght of the obejct
+mean()
+Returns the arithmetic mean of the vector
+median()
+Returns the median of the vector
+sample()
+Returns a specificed size of elements from the object
+replicate()
+Repeats an expression a specific number of times
+hist()
+Creates a histogram of given data values
+```
+
+2023 June 14th (challenge-day-5)
+
+Document Everything
+
+Start with the question and the raw data
+All files are text files
+
+Platform independence
+Future-proof
+Make code reachable
+
+Comments
+Formatting (indentation)
+Meaningful names
+Each script does one task
+
