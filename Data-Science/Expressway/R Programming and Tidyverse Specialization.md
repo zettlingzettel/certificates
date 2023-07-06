@@ -528,4 +528,8 @@ Style: Lessons in Clarity and Grace by Joseph M. Williams & Joseph Bizup, or The
 
  George Gopen also has a number of short articles on writing at https://www.georgegopen.com/the-litigation-articles.html. 
 
- 
+### Creating an RMarkdown Document
+
+2023 Jul 5
+https://www.coursera.org/learn/r-programming-tidyverse/supplement/xTcpc/helpful-tips-and-resources-on-rmarkdown
+
